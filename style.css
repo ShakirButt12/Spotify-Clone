@@ -1,0 +1,252 @@
+body{
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /* box-sizing: border-box; */
+    background-color: black;
+    color: white;
+}
+.main{
+    display: flex;
+    height: 100vh;
+}
+.sidebar{
+    background-color:black;
+    width: 300px;
+    border-radius: 1rem;
+    margin-right: 0.4rem;
+    
+}
+.nav{
+    height: 100px;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0.4rem;
+    margin-top: 0.4rem;
+    background-color: #121212;
+}
+.nav a{
+    text-decoration: none;
+    font-size: 1rem;
+    margin-left: 1rem;
+}
+.home a,.search a{
+    text-decoration: none;
+    color: white;
+}
+.home{
+    margin: 0.5rem 0.7rem;
+    padding: 0.4rem;
+}
+.home i,.search i{
+    font-size: 1.2rem;
+}
+
+.search{
+    margin: 0.5rem 0.7rem;
+    padding: 0.4rem;
+    opacity: 0.4;
+}
+.search:hover{
+   opacity: 1;
+}
+
+.options a{
+    text-decoration:none ;
+    color: white;
+    margin-left: 1rem;
+    font-size: 1rem;
+}
+.lib{
+    height: 100vh;
+    background-color: #121212;
+    border-radius: 1rem;
+}
+.library{
+   background-color: #121212;
+   border-radius: 1rem;
+   margin-top: 0.3rem;
+   display: flex;
+   justify-content: space-between;
+}
+.icons{
+    height:1.2rem;
+}
+.icons i:hover{
+    opacity: 1;
+}
+/* .options{
+    padding: 0.5rem;
+} */
+.options img{
+    height:1.2rem;
+}
+.plus,.arrow{
+    opacity: 0.7;
+    margin-left: 0.7rem;
+}
+.plus:hover,.arrow:hover{
+    opacity: 1;
+
+}
+.main-boxes{
+    height: 8rem;
+    background-color: #232323;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-top: 1rem;
+    padding-left: 2rem;
+    margin: 0.6rem 0 0.9rem 0;
+    
+}
+.box1,.box2{
+    padding: 0.5rem;
+}
+.box1{
+    font-weight: bold;
+}
+.box2{
+    font-size: 0.8rem;
+}
+.btn{
+    background-color: white;
+    color: #121212;
+    border-radius: 1rem;
+    height: 2rem;
+    width: 9rem;
+    border: none;
+}
+.new-btn{
+    background-color: black;
+    color: white;
+}
+
+.content{
+    background-color:#121212;
+    flex: 1;
+    border-radius: 1rem;
+    overflow: scroll;
+    margin-top: 0.4rem;
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
+}
+.sticky-nav{
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    align-items: center;
+    top: 0;
+    background-color: #121212;
+    z-index: 10;
+}
+.left-icons .lef{
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    border-radius: 50px;
+}
+@media (max-width:1000px) {
+    .hide1{
+        display: none;
+    }
+    
+}
+@media (max-width:375px) {
+    .hide2{
+        display: none;
+    }
+    
+}
+
+.card-container{
+   display: flex;
+}
+.trending{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{
+    padding: 0.8rem;
+    background-color:#232323;
+    width: 200px;
+    border-radius: 1rem;
+    margin: 0.5rem;
+    
+}
+.card img{
+    width: 100%;
+    border-radius: 1rem;
+}
+.title{
+    font-weight: bold;
+}
+.info{
+    opacity: 0.4;
+    font-size: small;
+}
+
+.line{
+    opacity: 0.5;
+    width: 85%;
+    height: 200px;
+    margin-top: 4rem;
+    border-top: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.footer{
+    background-color: black;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 63px;
+    
+}
+.music-player{
+    display: flex;
+}
+
+.album{
+    width: 25%;
+    display: flex;
+   
+}
+.album span{
+    margin-top: 0.8rem;
+}
+.album img{
+    width: 50px;
+    height: 50px;
+    margin-top: 0.4rem;
+    margin-left: 0.7rem;
+    border-radius: 1rem;
+}
+
+.player{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.player-controls img{
+    width: 1rem;
+    height: 1rem;
+    margin: 0.6rem;
+    opacity: 1;
+}
+.player-controls:hover{
+    opacity: 0.4;
+}
+
+
